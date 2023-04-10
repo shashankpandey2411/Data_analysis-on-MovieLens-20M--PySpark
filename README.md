@@ -9,14 +9,28 @@
   - performing aggregations and joins using the Spark SQL module 
   
   - calculating summary statistics
-  
-  We will use the MovieLens 20M Dataset on movie ratings to find out:
 
-  What are the most popular movies?
-  
-  What are the top rated movies?
-  
-  Which movies are the most polarising?
+   ### Objectives: 
+   In this project, we are going to analyse using the movielens dataset using a PySpark and answer a few questions like the ones given below
+   
+   - How many number of Movies are there for each rating?
+   - What are top 10 most rated movies?
+   - How many users have rated each movie?
+   - What is the Total Rating for each movie?
+   - What is the Average Rating for each movie?
+   - How many movies are there for each genre?
+   - How many movies have been rated each year?   
+   - Which were the least rated movies in the year of 2005? 
+   - What are the genres of the top 5 rated movies? 
+   - Which are the top rated by the users Sci-fi movies?
+   - Which are the Worst Comedy movies rated by the users in the year 2012?
+   - Find the number of users who watched the movie "Jumanji".
+   - Find the names of the movies that users described as "boring".
+   - Find the number of users who have described a movie as "Bollywood" and they have rated it with a score > 3.
+   - Find the tags for each movie and the name of the movie before the year 2015 .
+   - Find the movies with the most ratings for each movie category.
+   - Find the total number of users watching the same movie, on the same day and time .
+   - Find the number of movies, for each category, that users rated as "funny" and with a rating > 3.5
 
 
 ## How to Run
