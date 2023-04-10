@@ -1,5 +1,18 @@
 # Data_analysis-on-MovieLens-20M--PySpark
 
+## This project will demonstrate how to get started using pySpark and the DataFrame API to perform some basic data analysis, including:
+
+  -reading in data
+  -performing aggregations and joins using the Spark SQL module 
+  -calculating summary statistics
+  
+  We will use the MovieLens 20M Dataset on movie ratings to find out:
+
+  What are the most popular movies?
+  What are the top rated movies?
+  Which movies are the most polarising?
+
+
 ## How to Run
 
  - Open Google colab notebook
@@ -13,7 +26,7 @@
   Add Java to the path
 
   !apt-get update
-  # Download Java Virtual Machine (JVM)
+  ### Download Java Virtual Machine (JVM)
   !apt-get install openjdk-8-jdk-headless -qq > /dev/null
 
 
@@ -47,9 +60,9 @@
 
   Add it to ```SPARK_HOME``` variable
   
-  # Download Spark  
+  ### Download Spark  
   !wget -q https://archive.apache.org/dist/spark/spark-3.2.1/spark-3.2.1-bin-hadoop3.2.tgz
-  # Unzip the file
+  ### Unzip the file
   !tar xf spark-3.2.1-bin-hadoop3.2.tgz
 
 - Setup Pyspark
