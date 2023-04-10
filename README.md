@@ -2,11 +2,11 @@
 
 ## This project will demonstrate how to get started using pySpark and the DataFrame API to perform some basic data analysis, including:
 
-  -reading in data
+  - reading in data
   
-  -performing aggregations and joins using the Spark SQL module 
+  - performing aggregations and joins using the Spark SQL module 
   
-  -calculating summary statistics
+  - calculating summary statistics
   
   We will use the MovieLens 20M Dataset on movie ratings to find out:
 
