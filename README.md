@@ -3,6 +3,8 @@
 ## This project will demonstrate how to get started using pySpark and the DataFrame API to perform some basic data analysis, including:
 
   - reading in data
+
+  - performing Exploratory data analysis on the dataset
   
   - performing aggregations and joins using the Spark SQL module 
   
